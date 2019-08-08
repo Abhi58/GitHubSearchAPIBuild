@@ -169,7 +169,7 @@ AppModule = __decorate([
                     path: 'repo_search/:repo_keyword',
                     component: __WEBPACK_IMPORTED_MODULE_12__repo_search_repo_search_component__["a" /* RepoSearchComponent */]
                 }
-            ])
+            ], { useHash: true })
         ],
         providers: [__WEBPACK_IMPORTED_MODULE_3__github_service__["a" /* GithubService */]],
         bootstrap: [__WEBPACK_IMPORTED_MODULE_2__app_component__["a" /* AppComponent */], __WEBPACK_IMPORTED_MODULE_6__nav_head_nav_head_component__["a" /* NavHeadComponent */], __WEBPACK_IMPORTED_MODULE_8__custom_css_custom_css_component__["a" /* CustomCssComponent */]]
